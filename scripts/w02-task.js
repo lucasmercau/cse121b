@@ -23,7 +23,6 @@ imageElement.setAttribute("src", profilePicture);
 imageElement.setAttribute("alt", `Profile image of ${fullName}`);
 
 
-
 /* Step 5 - Array */
 
 const foods = ["Burger", "Lemon Pie", "Pizza", "Ice Cream", "Tacos"];
