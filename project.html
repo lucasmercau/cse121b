@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/project.js" type="module"></script>
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+          <li><a id="toggleMenu">&equiv;</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="w01-task.html">W1 Task</a></li>
+          <li><a href="w03-task.html">W3 Task</a></li>
+          <li><a href="w04-task.html">W4 Task</a></li>
+          <li><a href="w05-task.html">W5 Task</a></li>
+          <li><a href="project.html" class="active">Project</a></li>
+        </ul>
+    </nav>
+    <h1 style="margin-top: 100px;">Final Project: Currency Exchange</h1>
+    <input type="text" id="add1" name="add1" style="margin: 1rem auto;margin-top: 50px; box-sizing: border-box; display: flex; text-align: center;">
+    <select id="sortBy" title="Choose a data filter.">
+        <option value="" disabled selected>USD</option>
+    </select>
+    <h4 style="text-align: center;">To:</h4>
+    <select id="sortBy2" class="rate" title="Choose a data filter.">
+        <option value="" disabled selected>USD</option>
+    </select>
+    <div>
+        <input type="button" id="addNumbers" value="Convert" style="width: 200px;margin: 1rem auto;display: flex;align-self: center;text-align: center;flex-direction: column;align-content: space-around;align-items: center;">
+    </div>
+    <h1>Exchange:</h1>
+    <h2 id="result"></h2>
+</body>
+</html>
