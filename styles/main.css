@@ -149,7 +149,7 @@ dt {
 }
 
 dt::before {
-    content: "ðŸ˜ï¸ ";
+    content: "\1F3E1"
 }
 
 dd {
@@ -277,6 +277,26 @@ footer {
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
+}
+
+#sortBy2 {
+    appearance: none;
+    display: flex;
+    padding: .5rem;
+    background-color: #eee;
+    color: #444;
+    font-weight: 700;
+    margin: 1rem auto;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+#sortBy2 option:disabled {
+    font-style: italic;
+    padding: 1rem;
+    background-color: #111;
+    color: #eee;
 }
 
 /* Media Queries */
